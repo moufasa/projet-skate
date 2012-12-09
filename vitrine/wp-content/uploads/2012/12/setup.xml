@@ -1,0 +1,1494 @@
+<?xml version="1.0"?>
+<wp_citytheme_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>City Themes General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>logo</item_id>
+    <item_title>Logo</item_title>
+    <item_desc>Upload Your Logo (W:240px - H: 90px)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>theme_style_sellect</item_id>
+    <item_title>Select Your Theme Style</item_title>
+    <item_desc>Please Select Your Theme Style</item_desc>
+    <item_type>select</item_type>
+    <item_options>default, auto, cinema, furniture, hotels, jevel, makeup, mobile, photograph, sport, travel</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>theme_style_background</item_id>
+    <item_title>Upload Background Picture (All Page Background)</item_title>
+    <item_desc>Upload your Background Picture</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>theme_style_background_repeat</item_id>
+    <item_title>Background Positions</item_title>
+    <item_desc>Default: top center</item_desc>
+    <item_type>select</item_type>
+    <item_options>top center, center center, bottom center</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>slider_title</item_id>
+    <item_title>Slider Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>slide</item_id>
+    <item_title>Slider Upload</item_title>
+    <item_desc>Upload Your Slider (Image / Text / Link)</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>slide_transition</item_id>
+    <item_title>Slide  Transition</item_title>
+    <item_desc>Sample: 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left</item_desc>
+    <item_type>select</item_type>
+    <item_options>0, 1, 2, 3, 4, 5, 6, 7</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>transition_speed</item_id>
+    <item_title>Slide Transition Speed</item_title>
+    <item_desc>Speed of transition. Default: 1000</item_desc>
+    <item_type>select</item_type>
+    <item_options>1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>slide_interval</item_id>
+    <item_title>Slide Interval</item_title>
+    <item_desc>Length between transitions. Default: 5000</item_desc>
+    <item_type>select</item_type>
+    <item_options>1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 16000, 17000, 18000, 19000, 20000, 1000000</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>tabs_columbs</item_id>
+    <item_title>Tab Menu I</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>tab1_title</item_id>
+    <item_title>Tab Menu 1 Title</item_title>
+    <item_desc>Default: Work Portfolio</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>tab1_title2</item_id>
+    <item_title>Tab Menu 1 Bottom Title</item_title>
+    <item_desc>Default: Lorem ipsum is simply</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>tab1_icon</item_id>
+    <item_title>Tab Menu 1 Icon</item_title>
+    <item_desc>Upload Your Icon. Sample: (W:48px H:48px)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>column_slide</item_id>
+    <item_title>Column I</item_title>
+    <item_desc>Column I Slide.</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>column_slide2</item_id>
+    <item_title>Column II</item_title>
+    <item_desc>Column II Slide.</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>column_slide3</item_id>
+    <item_title>Column III</item_title>
+    <item_desc>Column II Slide.</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>tabs_menu_ii</item_id>
+    <item_title>Tab Menu II</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>tab2_title</item_id>
+    <item_title>Tab Menu 2 Title</item_title>
+    <item_desc>Default: About We Us</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>tab2_title2</item_id>
+    <item_title>Tab Menu 2 Bottom Title</item_title>
+    <item_desc>Default: Lorem ipsum is simply</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>tab2_icon</item_id>
+    <item_title>Tab Menu 2 Icon</item_title>
+    <item_desc>Upload Your Icon. Sample: (W:48px H:48px)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>column2_title</item_id>
+    <item_title>Column Title</item_title>
+    <item_desc>Insert Column Title</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>column2_des</item_id>
+    <item_title>Column Description</item_title>
+    <item_desc>Insert Description is Here</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>column2_image</item_id>
+    <item_title>Column Image</item_title>
+    <item_desc>Upload Column Image</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>column2_button_title</item_id>
+    <item_title>Column Button Title</item_title>
+    <item_desc>Sample: More</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>column2_button_link</item_id>
+    <item_title>Column Button Link</item_title>
+    <item_desc>Sample: http://www.themeforest.net</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>tab_menu_iii</item_id>
+    <item_title>Tab Menu III</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>tab3_title</item_id>
+    <item_title>Tab Menu 3 Title</item_title>
+    <item_desc>Default: Creative Team</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>tab3_title2</item_id>
+    <item_title>Tab Menu 3 Bottom Title</item_title>
+    <item_desc>Default: Lorem &#x130;psum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>tab3_icon</item_id>
+    <item_title>Tab Menu 3 Icon</item_title>
+    <item_desc>Upload Your Icon. Sample: (W:48px H:48px)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>column3_slide</item_id>
+    <item_title>Column All Team</item_title>
+    <item_desc>Insert your team members</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>column3_button_title</item_id>
+    <item_title>Column Button Title</item_title>
+    <item_desc>Default: View All Team</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>column3_button_link</item_id>
+    <item_title>Column Button Link</item_title>
+    <item_desc>Insert Button Link</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>column3_since_title</item_id>
+    <item_title>Since Text</item_title>
+    <item_desc>Default: Since 1947 - 2012</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>advert_area</item_id>
+    <item_title>Advert Area</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>advert_text</item_id>
+    <item_title>Advert Text</item_title>
+    <item_desc>Insert your advert text</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>advert_button_title</item_id>
+    <item_title>Button Title</item_title>
+    <item_desc>Default: Only $9.99 Purchase</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>advert_button_link</item_id>
+    <item_title>Button Link</item_title>
+    <item_desc>Insert Button Link</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>advert_button_show</item_id>
+    <item_title>Button Hide or Display</item_title>
+    <item_desc>If you check, button not display.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Check</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>left_right_column</item_id>
+    <item_title>Left &amp;amp; Right Column</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>left_column_title</item_id>
+    <item_title>Left Column Title</item_title>
+    <item_desc>Default: What Says Our Company</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>left_column_des</item_id>
+    <item_title>Left Column Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>left_column_cat</item_id>
+    <item_title>Left Column Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>right_column_title</item_id>
+    <item_title>Right Column Title</item_title>
+    <item_desc>Default: The Bigg Boss Says</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>right_column_des</item_id>
+    <item_title>Right Column Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>46</id>
+    <item_id>right_column_cat</item_id>
+    <item_title>Right Column Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>company_logos</item_id>
+    <item_title>Company Logos</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>slide_logo</item_id>
+    <item_title>Logos</item_title>
+    <item_desc>Add Reference Company Logos</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>blog_page_options</item_id>
+    <item_title>Blog Page Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>blog_categories</item_id>
+    <item_title>Blog Categories</item_title>
+    <item_desc>Select Display Blog Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>51</id>
+    <item_id>blog_show</item_id>
+    <item_title>Blog Display Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>1, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>blogbottom_lefttitle</item_id>
+    <item_title>Blog Bottom Left Title</item_title>
+    <item_desc>Default: The City Populer Post</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>blogbottom_leftdes</item_id>
+    <item_title>Blog Bottom Left Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>blogbottom_left</item_id>
+    <item_title>Blog Bottom Left 3 Post Area</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>55</id>
+    <item_id>blogbottom_righttitle</item_id>
+    <item_title>Blog Bottom Right Title</item_title>
+    <item_desc>Default: Latest Hot Post</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>blogbottom_rightdes</item_id>
+    <item_title>Blog Bottom Right Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>blogbottom_right</item_id>
+    <item_title>Blog Bottom Right Post Area</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>single_page_options</item_id>
+    <item_title>Single Page Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>likebutton</item_id>
+    <item_title>Google Plus &amp;amp; Facebook Like Button</item_title>
+    <item_desc>If you &amp;#039;check&amp;#039; On or Off button, like button not display on single post.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>facebook</item_id>
+    <item_title>Facebook Share Button</item_title>
+    <item_desc>If you &amp;#039;check&amp;#039; On or Off button, share button not display on single post.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>twitter</item_id>
+    <item_title>Twitter Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>yahoo</item_id>
+    <item_title>Yahoo Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>linkedin</item_id>
+    <item_title>Linked in Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>technorati</item_id>
+    <item_title>Technorati Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>delicious</item_id>
+    <item_title>Delicious Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>stumbleupon</item_id>
+    <item_title>Stumbleupon Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>67</id>
+    <item_id>google</item_id>
+    <item_title>Google Share Button</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>68</id>
+    <item_id>portfolio_page_options</item_id>
+    <item_title>Portfolio Page Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>69</id>
+    <item_id>portfolio_categories</item_id>
+    <item_title>Image Portfolio Page Categories</item_title>
+    <item_desc>Select portfolio categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>70</id>
+    <item_id>portfolio_show</item_id>
+    <item_title>Image Portfolio Page Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>3, 6, 9, 12, 15, 18, 21, 24, 27, 30</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>71</id>
+    <item_id>portfolioimage_filter</item_id>
+    <item_title>Image Portfolio Page Filter Menu</item_title>
+    <item_desc>Default:
+&amp;lt;/br&amp;gt;
+&amp;amp;lt;li class=&amp;amp;quot;current&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;#&amp;amp;quot;&amp;amp;gt;All&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;&amp;lt;br&amp;gt;
+&amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;#&amp;amp;quot;&amp;amp;gt;Work&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;&amp;lt;br&amp;gt;
+&amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;#&amp;amp;quot;&amp;amp;gt;Logo&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;&amp;lt;br&amp;gt;
+&amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;#&amp;amp;quot;&amp;amp;gt;Web&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;&amp;lt;br&amp;gt;
+&amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;#&amp;amp;quot;&amp;amp;gt;Media&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>15</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>72</id>
+    <item_id>portfoliovideo_categories</item_id>
+    <item_title>Video Portfolio Page Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>73</id>
+    <item_id>portfoliovideo_show</item_id>
+    <item_title>Video Portfolio Page Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>3, 6, 9, 12, 15, 18, 21, 24, 27, 30</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>74</id>
+    <item_id>portfoliovideo_filter</item_id>
+    <item_title>Video Portfolio Page Filter Menu</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>15</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>75</id>
+    <item_id>portfolioiframe_categories</item_id>
+    <item_title>Iframe Portfolio Page Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>76</id>
+    <item_id>portfolioiframe_show</item_id>
+    <item_title>Iframe Portfolio Page Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>3, 6, 9, 12, 15, 18, 21, 24, 27, 30</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>77</id>
+    <item_id>portfolioiframe_filter</item_id>
+    <item_title>Iframe Portfolio Page Filter Menu</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>15</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>78</id>
+    <item_id>portfoliopdf_categories</item_id>
+    <item_title>PDF Portfolio Page Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>79</id>
+    <item_id>portfoliopdf_show</item_id>
+    <item_title>PDF Portfolio Page Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>3, 6, 9, 12, 15, 18, 21, 24, 27, 30</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>80</id>
+    <item_id>portfoliopdf_filter</item_id>
+    <item_title>PDF Portfolio Page Filter Menu</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>15</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>81</id>
+    <item_id>portfolioimageblogbottom_lefttitle</item_id>
+    <item_title>All Portfolio Page Bottom Left Title</item_title>
+    <item_desc>Default: The Portfolio Populer Post</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>82</id>
+    <item_id>portfolioimageblogbottom_leftdes</item_id>
+    <item_title>All Portfolio Page Bottom Left Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>83</id>
+    <item_id>portfolioallblogbottom_left</item_id>
+    <item_title>All Portfolio Page Bottom Left  Populer Post Categories</item_title>
+    <item_desc>Select categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>84</id>
+    <item_id>portfolioimageblogbottom_righttitle</item_id>
+    <item_title>All Portfolio Page Bottom Right Title</item_title>
+    <item_desc>Default: Portfolio Hot Post</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>85</id>
+    <item_id>portfolioimageblogbottom_rightdes</item_id>
+    <item_title>All Portfolio Page Bottom Right Description</item_title>
+    <item_desc>Sample: Lorem ipsum is simply..</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>86</id>
+    <item_id>portfoliobottomblogbottom_right</item_id>
+    <item_title>All Portfolio Page Bottom Right Hot Post Categories</item_title>
+    <item_desc>Select categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>87</id>
+    <item_id>footer</item_id>
+    <item_title>Footer Area Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>88</id>
+    <item_id>footer_center_onoff</item_id>
+    <item_title>Footer Center - On or Off</item_title>
+    <item_desc>If you &amp;#039;Off&amp;#039; Footer center, goto widget area and add custom widget area.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>89</id>
+    <item_id>footer_center_title</item_id>
+    <item_title>Footer Center - Latest Portfolio Title</item_title>
+    <item_desc>Default: Latest PortfolIo Items</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>90</id>
+    <item_id>footer_portfolio_categories</item_id>
+    <item_title>Footer Center - Latest Portfolio Post Categories</item_title>
+    <item_desc>Select Categories</item_desc>
+    <item_type>categories</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>91</id>
+    <item_id>footer_portfolio_show</item_id>
+    <item_title>Footer Center - Latest Portfolio Post Show</item_title>
+    <item_desc>How many show post?</item_desc>
+    <item_type>select</item_type>
+    <item_options>5, 10, 15, 20, 25, 30, 35, 40, 45, 50</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>92</id>
+    <item_id>footer_center_bottom_title</item_id>
+    <item_title>Footer Center - Latest Portfolio Button Title</item_title>
+    <item_desc>Default: Portfolio</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>93</id>
+    <item_id>footer_center_bottom_link</item_id>
+    <item_title>Footer Center - Latest Portfolio Button Link</item_title>
+    <item_desc>Sample: http://www.envato.com</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>94</id>
+    <item_id>footer_righttwitter_onoff</item_id>
+    <item_title>Footer Right - Twitter On or Off</item_title>
+    <item_desc>If you &amp;#039;Off&amp;#039; Footer right, goto widget area and add custom widget area.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>95</id>
+    <item_id>footer_tweets_title</item_id>
+    <item_title>Footer Right - Twitter Title</item_title>
+    <item_desc>Default: Latest Tweets Envato</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>96</id>
+    <item_id>footer_tweets_name</item_id>
+    <item_title>Footer Right - Twitter Username</item_title>
+    <item_desc>Input your tweeter username</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>97</id>
+    <item_id>footer_social_onoff</item_id>
+    <item_title>Footer - Right - Social Area On or OFF</item_title>
+    <item_desc>If select &amp;#039;On / Off&amp;#039; button, not display on footer.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / OFF</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>98</id>
+    <item_id>footer_socialbuttons_title</item_id>
+    <item_title>Footer Right - Social Buttons Title</item_title>
+    <item_desc>Default: Others Social Media</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>99</id>
+    <item_id>footer_socialbuttons_add</item_id>
+    <item_title>Footer Right - Add Social Buttons</item_title>
+    <item_desc>Add 32 x 32 pixel icon and share link</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>100</id>
+    <item_id>footer_rightsocial_bottom_title</item_id>
+    <item_title>Footer Right - Button Title</item_title>
+    <item_desc>Default: Contact</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>101</id>
+    <item_id>footer_rightsocial_bottom_link</item_id>
+    <item_title>Footer Right - Button Link</item_title>
+    <item_desc>Sample: http://www.envato.com</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>102</id>
+    <item_id>footer_register_text</item_id>
+    <item_title>Footer Bottom - Register Text</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>103</id>
+    <item_id>displayorshow</item_id>
+    <item_title>Display &amp;amp; Show</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>104</id>
+    <item_id>tabmenu_onoff</item_id>
+    <item_title>Tab Menu On or Off</item_title>
+    <item_desc>Index page - Tab Menu On or Off</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>105</id>
+    <item_id>advertmenu_onoff</item_id>
+    <item_title>Advert Area</item_title>
+    <item_desc>Index Page - Advert Area On or Off</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>106</id>
+    <item_id>leftrightarea_onoff</item_id>
+    <item_title>Left and Right Area</item_title>
+    <item_desc>Index Page - Left and Right Area</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>107</id>
+    <item_id>footercompany_onoff</item_id>
+    <item_title>Footer Company Logo</item_title>
+    <item_desc>Footer Area - Company Logo On or Off</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>108</id>
+    <item_id>footercolumb_onoff</item_id>
+    <item_title>Footer 3 Columb Area</item_title>
+    <item_desc>Footer Area - 3 Columb Area On or Off</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On / Off</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>109</id>
+    <item_id>theme_lang</item_id>
+    <item_title>Theme Lang</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>110</id>
+    <item_id>langmore</item_id>
+    <item_title>More</item_title>
+    <item_desc>Default: More</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>111</id>
+    <item_id>langreadmore</item_id>
+    <item_title>Read More</item_title>
+    <item_desc>Default: More</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>112</id>
+    <item_id>langcomments</item_id>
+    <item_title>Comments</item_title>
+    <item_desc>Default: Comments</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>113</id>
+    <item_id>langposted</item_id>
+    <item_title>Posted By</item_title>
+    <item_desc>Default: Posted By</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>114</id>
+    <item_id>langin</item_id>
+    <item_title>In</item_title>
+    <item_desc>Default: in</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>115</id>
+    <item_id>langcategories</item_id>
+    <item_title>Categories</item_title>
+    <item_desc>Default: Categories</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>116</id>
+    <item_id>langcategory</item_id>
+    <item_title>Category</item_title>
+    <item_desc>Default: Category</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>117</id>
+    <item_id>topsearch</item_id>
+    <item_title>Top Search</item_title>
+    <item_desc>Default: Search:</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>118</id>
+    <item_id>langsearchfound</item_id>
+    <item_title>Search Not Found</item_title>
+    <item_desc>Default: Search Not Found :(</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>119</id>
+    <item_id>langsearchfor</item_id>
+    <item_title>Search Results For</item_title>
+    <item_desc>Default: Search Results for:</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>120</id>
+    <item_id>langpostcommentlist</item_id>
+    <item_title>Post Comment List</item_title>
+    <item_desc>Default: Post Comment List</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>121</id>
+    <item_id>langpostcommentform</item_id>
+    <item_title>Comment Form</item_title>
+    <item_desc>Default: Comment Form</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>122</id>
+    <item_id>lang404upss</item_id>
+    <item_title>404 - Page Upss! Title</item_title>
+    <item_desc>Default: Upss!</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>123</id>
+    <item_id>lang404upssdes</item_id>
+    <item_title>404 Page - Not Found Text</item_title>
+    <item_desc>Default: Page Not Found</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>124</id>
+    <item_id>lang404found</item_id>
+    <item_title>404 Page - Not Found Description</item_title>
+    <item_desc>Default: This Page Delete or Now Found :(</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>125</id>
+    <item_id>fontfamily_style</item_id>
+    <item_title>Font Family and Color</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>126</id>
+    <item_id>fontstyle1</item_id>
+    <item_title>Font Family 1</item_title>
+    <item_desc>Select Font Family 1</item_desc>
+    <item_type>select</item_type>
+    <item_options>Rosario, Jura, Asul, Marvel, Open Sans, Amaranth, Allerta Stencil, Federo, Jockey One, News Cycle, Quicksand, Antic, Anton, Syncopate,  Ruluko</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>127</id>
+    <item_id>fontstyle2</item_id>
+    <item_title>Font Family 2</item_title>
+    <item_desc>Select Font Family 2</item_desc>
+    <item_type>select</item_type>
+    <item_options>Vidaloka, Arapey, Ultra, Merriweather, Rokkitt, Mate SC, Almendra, Almendra SC, Fjord One, Tinos, Bitter, Holtwood One SC, Josefin Slab, Esteban, Copse</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>128</id>
+    <item_id>fontstyle3</item_id>
+    <item_title>Font Family 3</item_title>
+    <item_desc>Select Font Family 3</item_desc>
+    <item_type>select</item_type>
+    <item_options>Rosario, Jura, Asul, Marvel, Open Sans, Amaranth, Allerta Stencil, Federo, Jockey One, News Cycle, Quicksand, Antic, Anton, Syncopate,  Ruluko, Play, Didact Gothic, Marvel, Terminal Dosis, Open Sans Condensed, Jura, Ruluko, Basic, Electrolize, Varela</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>129</id>
+    <item_id>fontstyle4</item_id>
+    <item_title>Font Family 4</item_title>
+    <item_desc>Select Font Family 4</item_desc>
+    <item_type>select</item_type>
+    <item_options>Rosario, Jura, Asul, Marvel, Open Sans, Amaranth, Allerta Stencil, Federo, Jockey One, News Cycle, Quicksand, Antic, Anton, Syncopate,  Ruluko</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>130</id>
+    <item_id>fontstyle5</item_id>
+    <item_title>Font Family 5</item_title>
+    <item_desc>Select Font Family 5</item_desc>
+    <item_type>select</item_type>
+    <item_options>Rosario, Jura, Asul, Marvel, Open Sans, Amaranth, Allerta Stencil, Federo, Jockey One, News Cycle, Quicksand, Antic, Anton, Syncopate,  Ruluko, Play, Didact Gothic, Marvel, Terminal Dosis, Open Sans Condensed, Jura, Ruluko, Basic, Electrolize, Varela</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>131</id>
+    <item_id>fontstyle6</item_id>
+    <item_title>Font Family 6</item_title>
+    <item_desc>Select Font Family 6</item_desc>
+    <item_type>select</item_type>
+    <item_options>Rosario, Jura, Asul, Marvel, Open Sans, Amaranth, Allerta Stencil, Federo, Jockey One, News Cycle, Quicksand, Antic, Anton, Syncopate,  Ruluko</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>132</id>
+    <item_id>color1</item_id>
+    <item_title>Font Color 1</item_title>
+    <item_desc>Default: #ffffff</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>133</id>
+    <item_id>color2</item_id>
+    <item_title>Font Color 2</item_title>
+    <item_desc>Default: #888888</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>134</id>
+    <item_id>color3</item_id>
+    <item_title>Font Color 3</item_title>
+    <item_desc>Default: #ffffff</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>135</id>
+    <item_id>color4</item_id>
+    <item_title>Font Color 4</item_title>
+    <item_desc>Default: #202429</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>136</id>
+    <item_id>color5</item_id>
+    <item_title>Font Color 5</item_title>
+    <item_desc>Default: #292e33</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>137</id>
+    <item_id>color6</item_id>
+    <item_title>Font Color 6</item_title>
+    <item_desc>Default: #9d3029</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>138</id>
+    <item_id>color7</item_id>
+    <item_title>Font Color 7</item_title>
+    <item_desc>Default: #9fa1a4</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>139</id>
+    <item_id>color8</item_id>
+    <item_title>Font Color 8</item_title>
+    <item_desc>Default: #eeeeee</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>140</id>
+    <item_id>color9</item_id>
+    <item_title>Font Color 9</item_title>
+    <item_desc>Default: #cccccc</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>141</id>
+    <item_id>color10</item_id>
+    <item_title>Font Color 10</item_title>
+    <item_desc>Default: #dddddd</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>142</id>
+    <item_id>color11</item_id>
+    <item_title>Font Color 11</item_title>
+    <item_desc>Default: #b1b1b1</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>143</id>
+    <item_id>color12</item_id>
+    <item_title>Font Color 12</item_title>
+    <item_desc>Default: #5d5d5d</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>144</id>
+    <item_id>themestyle_color</item_id>
+    <item_title>Theme Style and Color</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>145</id>
+    <item_id>generalback</item_id>
+    <item_title>Theme Background Color</item_title>
+    <item_desc>default: #efefef</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>146</id>
+    <item_id>colorset1</item_id>
+    <item_title>Background Color Set 1</item_title>
+    <item_desc>Default: #292e33</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>147</id>
+    <item_id>colorset2</item_id>
+    <item_title>Background Color Set 2</item_title>
+    <item_desc>Default: #202429</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>148</id>
+    <item_id>colorset3</item_id>
+    <item_title>Background Color Set 3</item_title>
+    <item_desc>Default: #9d3029</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>149</id>
+    <item_id>colorset4</item_id>
+    <item_title>Background Color Set 4</item_title>
+    <item_desc>Default: #b8b8b8</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>150</id>
+    <item_id>colorset5</item_id>
+    <item_title>Background Color Set 5</item_title>
+    <item_desc>Default: #dbdbdb</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>151</id>
+    <item_id>bordercolorset1</item_id>
+    <item_title>Border Color Set 1</item_title>
+    <item_desc>Default: #dddcdc</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>152</id>
+    <item_id>bordercolorset2</item_id>
+    <item_title>Border Color Set 2</item_title>
+    <item_desc>Default: #1a1d21</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>153</id>
+    <item_id>bordercolorset3</item_id>
+    <item_title>Border Color Set 3</item_title>
+    <item_desc>Default: #34393e</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>154</id>
+    <item_id>bordercolorset4</item_id>
+    <item_title>Border Color Set 4</item_title>
+    <item_desc>Default: #9d3029</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>155</id>
+    <item_id>bordercolorset5</item_id>
+    <item_title>Border Color Set 5</item_title>
+    <item_desc>Default: #c0c2c4</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>156</id>
+    <item_id>textshadow</item_id>
+    <item_title>Text Shadow</item_title>
+    <item_desc>Default: #000000</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>157</id>
+    <item_id>tabgradident1</item_id>
+    <item_title>Tab Menu Background Gradident Color 1</item_title>
+    <item_desc>Default: #d9d9d9</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>158</id>
+    <item_id>tabgradident2</item_id>
+    <item_title>Tab Menu Background Gradident Color 2</item_title>
+    <item_desc>Default: #fefefe</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>159</id>
+    <item_id>advertgradident1</item_id>
+    <item_title>Advert Background Gradident Color 1</item_title>
+    <item_desc>Default: #8e8e8e</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>160</id>
+    <item_id>advertgradident2</item_id>
+    <item_title>Advert Background Gradident Color 2</item_title>
+    <item_desc>Default: #9e9e9e</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>161</id>
+    <item_id>advertgradident3</item_id>
+    <item_title>Advert Background Gradident Color 3</item_title>
+    <item_desc>Default: #b5b5b5</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>162</id>
+    <item_id>advertgradident4</item_id>
+    <item_title>Advert Background Gradident Color 4</item_title>
+    <item_desc>Default: #777777</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>163</id>
+    <item_id>buttonback1</item_id>
+    <item_title>Button Gradident 1</item_title>
+    <item_desc>Default: #862c25</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>164</id>
+    <item_id>buttonback3</item_id>
+    <item_title>Button Gradident 2</item_title>
+    <item_desc>Default: #b1352c</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>165</id>
+    <item_id>buttonback2</item_id>
+    <item_title>Button Gradident 3</item_title>
+    <item_desc>Default: #852b25</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+</wp_citytheme_tree>
