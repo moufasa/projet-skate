@@ -1,4 +1,6 @@
 <?php
+
+
 if ( ! isset( $content_width ) ) $content_width = 900;
 
 function my_init() {
@@ -345,7 +347,6 @@ class Example_Widget extends WP_Widget {
 		$instance = $old_instance;
 		$instance['title'] = strip_tags( $new_instance['title'] );
 		$instance['name'] = strip_tags( $new_instance['name'] );
-
 		return $instance; }
 
 	function form( $instance ) { ?>

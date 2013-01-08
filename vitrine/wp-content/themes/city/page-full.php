@@ -192,7 +192,7 @@
   <div class="clear"></div>
   
   <!-- Advert Start -->
-  <div id="advert" class="grid_16 advert">
+<!-- <div id="advert" class="grid_16 advert">
       <div id="advertback"></div>
       <div class="margin11 fleft">
       
@@ -240,7 +240,7 @@
       
       <div class="margin3 fright"><a href="#" class="minibutton"><?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'langposted') ) : ?><?php get_option_tree( 'langposted', '', 'true' ); ?><?php else : ?>Posted by<?php endif; endif; ?> 
 			<?php printf( esc_attr__( '%s', '' ), get_the_author() ); ?></a></div>
-  </div>
+  </div>  -->
   <!-- Advert End -->
   
   <!-- Clear-->

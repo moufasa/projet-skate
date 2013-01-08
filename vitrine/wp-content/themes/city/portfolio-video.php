@@ -27,127 +27,32 @@
     	
         <!-- Filter Menu -->
         <div class="filter">
-          <ul id="filter">
-              <?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'portfoliovideo_filter') ) : ?>
-              
-              <?php get_option_tree( 'portfoliovideo_filter', '', 'true' ); ?>
-              
-              <?php else : ?>
-              <li class="current"><a href="#">All</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Logo</a></li>
-              <li><a href="#">Web</a></li>
-              <li><a href="#">Media</a></li>
-              <?php endif; endif; ?>
-              
-          </ul>
+       
         </div>
         
         <div class="clear"></div>
-        
-        <!-- Filter List Post -->
-        <div class="portfoliowork">
-          <?php 
-		  $category = get_option_tree('portfoliovideo_categories');
-		  $number = get_option_tree('portfoliovideo_show');
-		  ?>
-	  
-		  <?php if (have_posts()) : ?>
-		  <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("cat=$category&showposts=$number&somecat&paged=$paged"); ?>
+         <script>
+          $.ajax({
+            url: 'https://api.dailymotion.com/user/Paris-Skate-Culture_PSC/videos?sort=recent&limit=50',
+            success: function(data) {
+              var listeHeight = (Math.floor((data.list.length/3))*156)+156;
+              for (var i =0; i <= data.list.length ; i++) {
+                $("#1").append('<div style="margin-right:10px;"class="overlay_fade"><a class="video" href="http://www.dailymotion.com/embed/video/'+data.list[i].id+'"><div class="overlay_zoom zoom_black"></div></a><iframe src="http://www.dailymotion.com/embed/video/'+data.list[i].id+'" frameborder="0"></iframe></div>');
+                $(".listingblogul").height(listeHeight);
+              };
               
-          <ul id="portfolio" class="portfolioul">
-              
-			  <?php while (have_posts()) : the_post(); ?>             
-              <!-- #1-->
-              <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>">
-              <script>
-			  $(function(){						  
-			  $('#<?php the_ID(); ?>').bxSlider({
-			  mode: 'fade',
-			  captions: false,
-			  auto: false,
-			  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb2', true) ) : ?>
-			  controls: true
-			  <?php else : ?>
-			  controls: false
-			  <?php endif; endif; ?>
-			  });
-			  });	
-			  </script>
-              	
-                <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
-                <ul id="<?php the_ID(); ?>" class="listingblogul">            
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_template_directory_uri(); ?>/image/post/no.jpg"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_template_directory_uri(); ?>/image/post/no.jpg&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb2', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb2", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb3', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb3", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb4', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb4", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb5', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb5", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb6', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb6", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb7', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb7", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb8', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb8", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb9', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb9", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                  <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb10', true) ) : ?>
-                  <li class="<?php echo get_post_meta($post->ID, "filter", $single = true); ?>"><div class="overlay_fade"><a class="video" href="<?php echo get_post_meta($post->ID, "video", $single = true); ?>"><div class="overlay_zoom zoom_black"></div></a><img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb10", $single = true); ?>&h=200&w=300" alt="" class="three-columb-img portfolioul-li-img" /></div></li>
-                  <?php else : ?>
-                  <?php endif; endif; ?>
-                  
-                </ul>
-                
-                <div class="columb-shadow3"><img src="<?php echo get_template_directory_uri(); ?>/image/theme/minishadow.png" alt=""></div>
-              
-              </li>             
-              <?php endwhile; ?> 
-              
-           </ul>
-           <?php else : ?>
-		   <?php endif; ?> 
-         </div>
-        
+            }
+          });
+      </script>
+
+    <div id="1" class="listingblogul" style="display=inline;">            
     </div>
     
     <!-- Clear-->
     <div class="clear"></div>
     
     <!-- Advert Start -->
-    <div id="advert" class="grid_16 advert pagenavi">
+<!--     <div id="advert" class="grid_16 advert pagenavi">
     	<div id="advertback"></div>
         <?php 
 		$category = get_option_tree('portfoliovideo_categories');
@@ -165,7 +70,7 @@
         <div class="margin3 fright"><?php previous_posts_link() ?> <?php next_posts_link() ?></div>
         <?php else : ?>
 		<?php endif; ?> 
-    </div>
+    </div> -->
     <!-- Advert End -->
     
     <!-- Clear-->
@@ -173,7 +78,7 @@
     
     
     <!-- What Says Our Company -->
-    <div class="grid_8 margin leftsays">
+<!--     <div class="grid_8 margin leftsays">
     	<div id="full-bottom"></div>
     	<div class="title-2cloumb">
         	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'portfolioimageblogbottom_lefttitle') ) : ?>
@@ -223,11 +128,11 @@
                 <?php endif; endif; ?>
             </ul>
         </div>
-    </div>
+    </div> -->
     <!-- What Says Our Company End -->
     
     <!-- Bigg Boss -->
-    <div class="grid_8 margin">
+<!--     <div class="grid_8 margin">
     	<div class="title-2cloumb">
         	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'portfolioimageblogbottom_righttitle') ) : ?>
             
@@ -274,7 +179,7 @@
             
             <?php endif; endif; ?>
         </div>
-    </div>
+    </div> -->
     <!-- Bigg Boss End -->
 
 <?php get_footer(); ?>

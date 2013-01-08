@@ -221,7 +221,7 @@
     <div class="clear"></div>
     
     <!-- Advert Start -->
-    <div id="advert" class="grid_16 advert pagenavi">
+<!--     <div id="advert" class="grid_16 advert pagenavi">
     	<div id="advertback"></div>
         <?php 
 		$category = get_option_tree('blog_categories');
@@ -239,15 +239,14 @@
         <div class="margin3 fright"><?php previous_posts_link() ?> <?php next_posts_link() ?></div>
         <?php else : ?>
 		<?php endif; ?> 
-    </div>
+    </div> -->
     <!-- Advert End -->
     
     <!-- Clear-->
     <div class="clear"></div>
     
-    
     <!-- What Says Our Company -->
-    <div class="grid_8 margin leftsays">
+<!--     <div class="grid_8 margin leftsays">
     	<div id="full-bottom"></div>
     	<div class="title-2cloumb">
         	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'blogbottom_lefttitle') ) : ?>
@@ -297,11 +296,11 @@
                 <?php endif; endif; ?>
             </ul>
         </div>
-    </div>
+    </div> -->
     <!-- What Says Our Company End -->
     
     <!-- Bigg Boss -->
-    <div class="grid_8 margin">
+<!--     <div class="grid_8 margin">
     	<div class="title-2cloumb">
         	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'blogbottom_righttitle') ) : ?>
             
@@ -348,7 +347,7 @@
             
             <?php endif; endif; ?>
         </div>
-    </div>
+    </div> -->
     <!-- Bigg Boss End -->
 
 <?php get_footer(); ?>

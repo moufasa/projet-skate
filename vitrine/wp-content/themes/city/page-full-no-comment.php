@@ -192,7 +192,7 @@
   <div class="clear"></div>
   
   <!-- Advert Start -->
-  <div id="advert" class="grid_16 advert">
+<!--   <div id="advert" class="grid_16 advert">
       <div id="advertback"></div>
       <div class="margin11 fleft">
       
@@ -240,7 +240,7 @@
       
       <div class="margin3 fright"><a href="#" class="minibutton"><?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'langposted') ) : ?><?php get_option_tree( 'langposted', '', 'true' ); ?><?php else : ?>Posted by<?php endif; endif; ?> 
 			<?php printf( esc_attr__( '%s', '' ), get_the_author() ); ?></a></div>
-  </div>
+  </div> -->
   <!-- Advert End -->
   
   <!-- Clear-->
@@ -249,61 +249,13 @@
   <?php endwhile; // end of the loop. ?>
   
   <!-- What Says Our Company -->
-    <div class="grid_8 margin leftsays">
-    	<div id="full-bottom"></div>
-    	<div class="title-2cloumb">
-        	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'blogbottom_lefttitle') ) : ?>
-            
-            <h1><?php get_option_tree( 'blogbottom_lefttitle', '', 'true' ); ?></h1>
-        	<p><?php get_option_tree( 'blogbottom_leftdes', '', 'true' ); ?></p>
-            
-            <?php else : ?>
-            <h1>The City Populer Post</h1>
-        	<p>Lorem ipsum is simply data text</p>
-            <?php endif; endif; ?>
-        </div>
-        <div class="leftcloumb-list">
-        	<ul>
-            	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'blogbottom_left') ) : ?>
-                
-                <?php 
-				$category = get_option_tree('blogbottom_left');
-				$number = 3;
-				?>
-				<?php $showPostsInCategory = new WP_Query(); $showPostsInCategory->query('cat='. $category .'&showposts='. $number .'');  ?>
-				<?php if ($showPostsInCategory->have_posts()) :?>
-				<?php while ($showPostsInCategory->have_posts()) : $showPostsInCategory->the_post(); ?>
-				<?php $data = get_post_meta( $post->ID, 'key', true ); ?>
-                
-                <li>
-                <div class="margin4 fright">
-                <a href="<?php the_permalink() ?>" class="minibutton2"><?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'langmore') ) : ?><?php get_option_tree( 'langmore', '', 'true' ); ?><?php else : ?>More<?php endif; endif; ?></a>
-                </div>
-                
-                <?php if ( function_exists( 'get_post_meta') ) : if( get_post_meta($post->ID, 'thumb', true) ) : ?>
-                <img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_post_meta($post->ID, "thumb", $single = true); ?>&h=80&w=120" alt="" class="leftcloumb-list-img">
-                <?php else : ?>
-                <img src="<?php echo get_template_directory_uri(); ?>/scripts/timthumb.php?src=<?php echo get_template_directory_uri(); ?>/image/post/no.jpg&h=80&w=120" alt="" class="leftcloumb-list-img">
-                <?php endif; endif; ?>
-                
-                <h1><?php the_title_limit( 30, '...'); ?></h1>
-                <p><?php content('14'); ?></p>
-                </li>
-                
-                <?php endwhile; endif; ?>
-                
-                <?php else : ?>
-                <li><div class="margin4 fright"><a href="#" class="minibutton2">More</a></div><img src="<?php echo get_template_directory_uri(); ?>/image/post/l1.png" alt="" class="leftcloumb-list-img"> <h1>William Crahenberg Says:</h1><p>In consequat velit tempor dui dapibus mollis. Morbi a risus felis. Nulla non odio nunc, sit amet.</p></li>
-                <li><div class="margin4 fright"><a href="#" class="minibutton2">More</a></div><img src="<?php echo get_template_directory_uri(); ?>/image/post/l2.png" alt="" class="leftcloumb-list-img"> <h1>Marie Smith Do Says:</h1><p>In consequat velit tempor dui dapibus mollis. Morbi a risus felis. Nulla non odio nunc, sit amet.</p></li>
-                <li><div class="margin4 fright"><a href="#" class="minibutton2">More</a></div><img src="<?php echo get_template_directory_uri(); ?>/image/post/l3.png" alt="" class="leftcloumb-list-img"> <h1>Mark John Gothenberg Says:</h1><p>In consequat velit tempor dui dapibus mollis. Morbi a risus felis. Nulla non odio nunc, sit amet.</p></li>
-                <?php endif; endif; ?>
-            </ul>
-        </div>
-    </div>
+<!--     <div class="grid_8 margin leftsays">
+	<div id="full-bottom"></div> 
+    </div> -->
     <!-- What Says Our Company End -->
     
     <!-- Bigg Boss -->
-    <div class="grid_8 margin">
+<!--     <div class="grid_8 margin">
     	<div class="title-2cloumb">
         	<?php if ( function_exists( 'get_option_tree') ) : if( get_option_tree( 'blogbottom_righttitle') ) : ?>
             
@@ -350,7 +302,7 @@
             
             <?php endif; endif; ?>
         </div>
-    </div>
+    </div> -->
     <!-- Bigg Boss End -->
 
 
