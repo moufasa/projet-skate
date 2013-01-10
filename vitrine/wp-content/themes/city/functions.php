@@ -1,6 +1,4 @@
 <?php
-
-
 if ( ! isset( $content_width ) ) $content_width = 900;
 
 function my_init() {
