@@ -63,11 +63,14 @@
                         // Components							
                         slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
                         slides 					:  	[			// Slideshow Images	
-                        {image : '<?php echo get_template_directory_uri(); ?>/image/wall/01.jpg', title : '<h1>Business Life in The City</h1> <h2>"You can change your life"</h2>'},
-                        {image : '<?php echo get_template_directory_uri(); ?>/image/wall/02.jpg', title : '<h1>The New York City</h1> <h2>"Duis eleifend suscipit pellentesque"</h2>'},
-						{image : '<?php echo get_template_directory_uri(); ?>/image/wall/03.jpg', title : '<h1>A Black Night in The City</h1> <h2>"Vivamus euismod luctus tempus"</h2>'},
-						{image : '<?php echo get_template_directory_uri(); ?>/image/wall/04.jpg', title : '<h1>New World in The City</h1> <h2>"Nulla augue urna, dictum eu luctus"</h2>'},												
-                                                    ]	
+                        //{image : '<?php echo get_template_directory_uri(); ?>/image/wall/01.jpg', title : '<h1>Business Life in The City</h1> <h2>"You can change your life"</h2>'},
+                        //{image : '<?php echo get_template_directory_uri(); ?>/image/wall/02.jpg', title : '<h1>The New York City</h1> <h2>"Duis eleifend suscipit pellentesque"</h2>'},
+						//{image : '<?php echo get_template_directory_uri(); ?>/image/wall/03.jpg', title : '<h1>A Black Night in The City</h1> <h2>"Vivamus euismod luctus tempus"</h2>'},
+						//{image : '<?php echo get_template_directory_uri(); ?>/image/wall/04.jpg', title : '<h1>New World in The City</h1> <h2>"Nulla augue urna, dictum eu luctus"</h2>'},												
+                        {image : '<?php echo get_template_directory_uri(); ?>/image/wall/05.png', title : '<h1>New World in The City</h1> <h2>"Nulla augue urna, dictum eu luctus"</h2>'},												
+                        {image : '<?php echo get_template_directory_uri(); ?>/image/wall/06.png', title : '<h1>New World in The City</h1> <h2>"Nulla augue urna, dictum eu luctus"</h2>'},												
+                          
+                      ]	
                     });
                 });
           </script>
